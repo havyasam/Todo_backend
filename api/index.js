@@ -1,8 +1,8 @@
 const express = require("express")
 const cors = require('cors')
 const app = express()
-const router = require('./routes/route')
-const connectDb = require('./connect/connect')
+const router = require('../routes/route')
+const connectDb = require('../connect/connect')
 require('dotenv').config()
 const PORT = process.env.PORT
 
